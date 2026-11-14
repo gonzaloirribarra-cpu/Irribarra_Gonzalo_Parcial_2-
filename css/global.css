@@ -1,0 +1,118 @@
+body{
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+    }
+
+#Fondo{
+background-image: url(../imagenes/Fondo.jpg);
+    background-attachment: fixed;
+    background-position: 56%;
+    background-size: contain;
+}
+
+nav{
+    font-size: x-large;
+    text-align:right;
+    color: black;
+}
+
+header{
+    background-color: #F0EAE0;
+    padding: 5px;
+    color: #B85C38;
+}
+
+main{
+    background-color: #B85C38;
+    padding: 30px;
+    color: #F0EAE0;
+}
+
+h1{
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:"width" 800;
+}
+
+h3{
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+footer{
+      background-color: oklab(97.352% 0.01235 0.00375);
+    padding: 5px;
+    color: #B85C38;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    padding-inline: 150px;
+}
+
+#Nombre{
+    text-align: center;
+    color: black;
+}
+
+#Redes{
+    padding-inline: 100px;
+}
+
+.grande{
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#ajuste2{
+margin: 0px 0px 0px 0px;
+color: black;
+}
+
+.Formulario{
+  background: #000000;
+  margin: 100px 100px 100px 250px;
+  padding: 20px;
+  border-radius: 8px black;
+  color: rgb(241, 241, 241);
+  }
+
+  
+.Formulario2{
+  background: #000000;
+  margin: 100px 100px 100px 200px;
+  padding: 20px;
+  border-radius: 8px black;
+  color: rgb(241, 241, 241);
+  }
+
+  #Formulario3{
+    display: flex;
+    align-items: center;
+  }
+
+  #logo1{
+    padding-inline: 250px;
+}
+
+#Nombre2{
+    text-align: center;
+    color: black;
+}
+
+#Redes3{
+    padding-inline: 210px;
+}
+
+
