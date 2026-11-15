@@ -10,45 +10,48 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="../css/contacto.css">
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/reparto.css">
 </head>
 
-<body id="ajuste2">
+<body>
+    <h1>Contacto</h1>
     <header>
-        <h1>Contacto</h1>
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="../paginas/reparto.html">Reparto</a>
+        <nav class="menu-botones">
+            <a href="../index.html">Inicio</a>
             <a href="../paginas/sobrelapelicula.html">SobreLaPelicula</a>
+            <a href="../paginas/reparto.html">Reparto</a>
             <a href="../paginas/premios.html">PremiosyCuriosidades</a>
 
         </nav>
     </header>
-    <main id="Formulario3">
-        <div class="Formulario">
-            <h2>Formulario de Registro</h2>
-            <p>Nombre y apellido: ____________</p>
-            <p>Correo electronico: ____________</p>
-            <p>Numero de telefono: ____________</p>
-            <p>Pregunta soobre la pelicula: ____________</p>
-        </div>
 
-        <div class="Formulario2">
-            <h2>Informacion de Contacto</h2>
-            <p>Corre electronico: theothers2001@gmail.com</p>
-            <p>Redes Sociales</p>
-            <p>Instagram:theothers_2001</p>
-            <p>X(Twiter):@theothers2001</p>
-            <p>youtube:theothers</p>
-        </div>
-    </main>
+    <main>
+    <form action="./confirmacion.html" method="get">
+
+        <label for="nombre">Ingrese su nombre</label>
+        <input type="text" name="" id="nombre" placeholder="Ej: Gonzalo" required>
+
+        <label for="apellido">Ingrese su apellido</label>
+        <input type="text" name="apellido" id="" placeholder="Ej: Irribarra" required>
+        </label>
+
+        <label for="correo">Ingrese su correo electrónico</label>
+        <input type="email" name="" id="" placeholder="Ej: usuario@dominio.com" required>
+
+        <label for="Contraseña">Crea una contraseña</label>
+        <input type="password" minlength="8" name="pass" id="" required>
+
+        <label for="mensaje">Ingrese su mensaje</label>
+        <input type="text" name="" id="" placeholder="Agregue un mensaje de manera opcional">
+
+
+        <button type="submit">Enviar</button>
+        </main>
     <footer>
-        <img id="logo1" src="../imagenes/Footer.jpg" width="10%" alt="footer">
-        <p id="Nombre2">Copyright - Parcial 1 Gonzalo Javier Irribarra</p>
-        <img id="Redes3" src="../imagenes/Redes.png" alt="Redes">
-    </footer>
-
+        <img id="logo" src="../imagenes/Footer.jpg" width="10%" alt="footer">
+        <p id="Nombre">Copyright - Parcial 1 Gonzalo Javier Irribarra</p>
+        </footer>
 
 </body>
 

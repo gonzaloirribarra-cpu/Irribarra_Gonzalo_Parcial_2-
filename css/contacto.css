@@ -1,0 +1,54 @@
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    font-size: x-large;
+    text-align: right;
+    color: black;
+}
+
+body {
+   background-image: url(../imagenes/Fondo.jpg);
+    padding: 30px;
+    color: #F0EAE0;
+     background-attachment: fixed;
+    background-position: 56%;
+    background-size: contain;
+}
+main {
+    background-color: white;
+    padding: 30px;
+    color: #F0EAE0;
+}
+
+header {
+    background-color: #F0EAE0;
+    padding: 5px;
+    color: #B85C38;
+}
+
+footer {
+    background-color: oklab(97.352% 0.01235 0.00375);
+    padding: 5px;
+    color: #B85C38;
+    display: flex;
+    align-items: center;
+}

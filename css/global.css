@@ -1,118 +1,113 @@
-body{
+body {
     width: 70%;
     max-width: 1100px;
     margin: 0 auto;
-    }
+}
 
-#Fondo{
-background-image: url(../imagenes/Fondo.jpg);
+#Fondo {
+    background-image: url(../imagenes/Fondo.jpg);
     background-attachment: fixed;
     background-position: 56%;
     background-size: contain;
 }
 
-nav{
+nav {
     font-size: x-large;
-    text-align:right;
+    text-align: right;
     color: black;
 }
 
-header{
+header {
     background-color: #F0EAE0;
     padding: 5px;
     color: #B85C38;
 }
 
-main{
+main {
     background-color: #B85C38;
     padding: 30px;
     color: #F0EAE0;
 }
 
-h1{
+h1 {
     font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
-h2{
+h2 {
     font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:"width" 800;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "width" 800;
 }
 
-h3{
+h3 {
     font-family: "Momo Trust Display", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+    font-weight: 200;
+    font-style: normal;
 }
-footer{
-      background-color: oklab(97.352% 0.01235 0.00375);
+
+footer {
+    background-color: oklab(97.352% 0.01235 0.00375);
     padding: 5px;
     color: #B85C38;
     display: flex;
     align-items: center;
 }
 
-#logo{
+#logo {
     padding-inline: 150px;
 }
 
-#Nombre{
+#Nombre {
     text-align: center;
     color: black;
 }
 
-#Redes{
+#Redes {
     padding-inline: 100px;
 }
 
-.grande{
+.grande {
     font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+    font-weight: 400;
+    font-style: italic;
 }
 
-#ajuste2{
-margin: 0px 0px 0px 0px;
-color: black;
-}
-
-.Formulario{
-  background: #000000;
-  margin: 100px 100px 100px 250px;
-  padding: 20px;
-  border-radius: 8px black;
-  color: rgb(241, 241, 241);
-  }
-
-  
-.Formulario2{
-  background: #000000;
-  margin: 100px 100px 100px 200px;
-  padding: 20px;
-  border-radius: 8px black;
-  color: rgb(241, 241, 241);
-  }
-
-  #Formulario3{
-    display: flex;
-    align-items: center;
-  }
-
-  #logo1{
+#logo1 {
     padding-inline: 250px;
 }
 
-#Nombre2{
+#Nombre2 {
     text-align: center;
     color: black;
 }
 
-#Redes3{
+#Redes3 {
     padding-inline: 210px;
 }
 
+.menu-botones {
+  display: flex;
+  gap: 12px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
 
+
+.menu-botones a {
+  text-decoration: none;      
+  background-color: #d9534f;  
+  color: white;              
+  padding: 10px 18px;         
+  border-radius: 6px;        
+  font-weight: bold;         
+  display: inline-block;    
+  transition: background-color 0.3s ease; 
+}
+
+.menu-botones a:hover {
+  background-color: #b52b27; 
+}
